@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Proyecto con Javascript</title>
+    <link href="http://localhost/master-php/prueba_php/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://localhost/master-php/prueba_php/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="http://localhost/master-php/prueba_php/css/bootstrap-icons.min.css">
+    <script src="http://localhost/master-php/prueba_php/js/jquery.min.js"></script>
+    <script type="text/Javascript" src="js/formulario.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>Formulario de Votación</h1>
+        <div class="card">
+            <div class="card-body">
+                <div id="mensagessucces"></div>
+                <form id="formVotacion">
+
+                    <div class="m-1">
+                        <label for="name">Nomebre y Apellido</label>
+                        <input type="text" name="name" class="form-control" id="name" />
+                        <span id="nombremgs" class="text-danger"></span>
+                    </div>
+                    <div class="m-1">
+                        <label for="alias">Alias</label>
+                        <input type="text" name="alias" class="form-control" id="alias" />
+                        <span id="aliasmgs" class="text-danger"></span>
+                    </div>
+                    <div class="m-1">
+                        <label for="rut">Rut</label>
+                        <input type="text" name="rut" class="form-control" id="rut" />
+                        <span id="rutmgs" class="text-danger"></span>
+                    </div>
+                    <div class="m-1">
+                        <label for="email">Correo Electronico</label>
+                        <input type="text" name="email" class="form-control" id="email" />
+                        <span id="emailmgs" class="text-danger"></span>
+                    </div>
+                    <div class="m-1">
+                        <label for="region">Region</label>
+                        <select name="region" class="form-select" id="region"></select>
+                        <span id="regionmgs" class="text-danger"></span>
+                    </div>
+                    <div class="m-1">
+                        <label for="comuna">comuna</label>
+                        <select name="comuna" class="form-select" id="comuna"></select>
+                        <span id="comunamgs" class="text-danger"></span>
+                    </div>
+                    <div class="m-1">
+                        <label for="candidato">Candidato</label>
+                        <select name="candidato" class="form-select" id="candidato"></select>
+                        <span id="candidatomgs" class="text-danger"></span>
+                    </div>
+                    <div style="display: flex;">
+                        <div class="m-1">
+                            <label class="form-check-label">
+                                Como se entero de nosotros :
+                            </label>
+                        </div>
+                        <div class="m-1">
+                            <input class="form-check-input" type="checkbox" value="" name="ckWeb" id="ckWeb">
+                            <label class="form-check-label" for="ckWeb">
+                                Web
+                            </label>
+                        </div>
+                        <div class="m-1">
+                            <input class="form-check-input" type="checkbox" value="" name="ckTv" id="ckTv">
+                            <label class="form-check-label" for="ckTv">
+                                Tv
+                            </label>
+                        </div>
+                        <div class="m-1">
+                            <input class="form-check-input" type="checkbox" value="" name="ckRed" id="ckRed">
+                            <label class="form-check-label" for="ckRed">
+                                Redes Sociales
+                            </label>
+                        </div>
+                        <div class="m-1">
+                            <input class="form-check-input" type="checkbox" value="" name="ckAmigo" id="ckAmigo">
+                            <label class="form-check-label" for="ckAmigo">
+                                Amigo
+                            </label>
+                        </div>
+                    </div>
+                    <span id="opcionesmgs" class="text-danger"></span>
+
+                    <br />
+
+                    <button class="btn-primary btn" id="votar" type="submit">Votar</button>
+
+                </form>
+            </div>
+        </div>
+
+
+
+
+</body>
+
+</html>

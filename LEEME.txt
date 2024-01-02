@@ -1,0 +1,7 @@
+1. conectarse a un gestor de base de datos mysql
+2. ejecutar el contenedo del siguiente script  \SQL\bd.sql  con el gestor de base de datos.
+3. configurar el usuario y contraseña para conectrase a la BD en el siguientes archivo
+\php\conexion.php
+
+version de php utilizado  8.2.0
+vesion de mysql 8.0.31
